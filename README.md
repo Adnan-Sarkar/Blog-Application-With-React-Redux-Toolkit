@@ -1,46 +1,35 @@
-# Getting Started with Create React App and Redux
+# Blog Application with React Redux-Toolkit ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+This is a blog application that allows users to view and interact with blog posts. It includes features such as sorting by date or likes, saving posts, and displaying related posts.
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+- React JS
+- React Router
+- Redux-Thunk
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- View blog posts on home page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Sort posts by date or likes
 
-### `npm test`
+- Like posts to increase their popularity (synced with server)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Bookmark(save) posts to save them (synced with server)
 
-### `npm run build`
+- View Bookmarked(saved) posts by filtering
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- View details of a post (including related posts by tag)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Live Preview
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Click [here](https://blog-app-reduxtoolkit-by-adnan-sarkar.netlify.app/) to view a live preview of the application.
 
-### `npm run eject`
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![](Blog-Application-with-React-Redux-toolkit.jpg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Credits
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project was completed as part of the `Think in a Redux Way` course on [learn with sumit](https://learnwithsumit.com/) platform. The HTML-CSS template used for the project was also provided by the platform.
